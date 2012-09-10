@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Tools">
+            <file name="org-netbeans-modules-jsrhinocontext-RhinoCompletionEnableAction.instance">
+                <!--org.netbeans.modules.jsrhinocontext.ui.RhinoCompletionEnableAction-->
+                <attr
+                    bundlevalue="org.netbeans.modules.jsrhinocontext.ui.Bundle#CTL_RhinoCompletionEnableAction" name="displayName"/>
+                <attr methodvalue="org.openide.awt.Actions.context" name="instanceCreate"/>
+                <attr name="type" stringvalue="org.openide.cookies.EditorCookie"/>
+                <attr methodvalue="org.openide.awt.Actions.inject" name="delegate"/>
+                <attr name="injectable" stringvalue="org.netbeans.modules.jsrhinocontext.ui.RhinoCompletionEnableAction"/>
+                <attr name="selectionType" stringvalue="EXACTLY_ONE"/>
+                <attr name="iconBase" stringvalue="org/netbeans/modules/jsrhinocontext/rhino.jpg"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-netbeans-modules-jsrhinocontext-ui-RhinoEvalResultTopComponent.instance">
+                <!--org.netbeans.modules.jsrhinocontext.ui.RhinoEvalResultTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.netbeans.modules.jsrhinocontext.ui.RhinoEvalResultTopComponent"/>
+                <attr name="preferredID" stringvalue="RhinoEvalResultTopComponent"/>
+                <attr
+                    bundlevalue="org.netbeans.modules.jsrhinocontext.ui.Bundle#CTL_RhinoEvalResultAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="org/netbeans/modules/jsrhinocontext/rhino.jpg"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Tools">
+            <file name="org-netbeans-modules-jsrhinocontext-RhinoCompletionEnableAction.shadow">
+                <!--org.netbeans.modules.jsrhinocontext.ui.RhinoCompletionEnableAction-->
+                <attr name="originalFile" stringvalue="Actions/Tools/org-netbeans-modules-jsrhinocontext-RhinoCompletionEnableAction.instance"/>
+                <attr intvalue="140" name="position"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-netbeans-modules-jsrhinocontext-ui-RhinoEvalResultTopComponent.shadow">
+                <!--org.netbeans.modules.jsrhinocontext.ui.RhinoEvalResultTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-netbeans-modules-jsrhinocontext-ui-RhinoEvalResultTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="javascript">
+                <folder name="Popup">
+                    <file name="org-netbeans-modules-jsrhinocontext-RhinoCompletionEnableAction.shadow">
+                        <!--org.netbeans.modules.jsrhinocontext.ui.RhinoCompletionEnableAction-->
+                        <attr name="originalFile" stringvalue="Actions/Tools/org-netbeans-modules-jsrhinocontext-RhinoCompletionEnableAction.instance"/>
+                        <attr intvalue="400" name="position"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="RhinoEvalResultTopComponent.settings">
+                <!--org.netbeans.modules.jsrhinocontext.ui.RhinoEvalResultTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.netbeans.modules.jsrhinocontext.ui.RhinoEvalResultTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="output">
+                <file name="RhinoEvalResultTopComponent.wstcref">
+                    <!--org.netbeans.modules.jsrhinocontext.ui.RhinoEvalResultTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="RhinoEvalResultTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_netbeans_modules_jsrhinocontext_ui">
+                <file name="RhinoEvalResult" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.netbeans.modules.jsrhinocontext.ui.RhinoEvalResultTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.netbeans.modules.jsrhinocontext.ui//RhinoEvalResult//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="netbeans">
+                    <folder name="modules">
+                        <folder name="jsrhinocontext">
+                            <folder name="ui">
+                                <file name="RhinoEvalResultTopComponent">
+                                    <!--org.netbeans.modules.jsrhinocontext.ui.RhinoEvalResultTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//org_netbeans_modules_jsrhinocontext_ui/RhinoEvalResult.instance"/>
+                                </file>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_netbeans_modules_jsrhinocontext_ui">
+                <file name="RhinoEvalResult.instance">
+                    <!--org.netbeans.modules.jsrhinocontext.ui.RhinoEvalResultTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.netbeans.modules.jsrhinocontext.ui.RhinoEvalResultTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.netbeans.modules.jsrhinocontext.ui.RhinoEvalResultTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
